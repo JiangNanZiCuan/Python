@@ -5,7 +5,7 @@ print(a)
 table2=str.maketrans("12345", "aeiou")
 a=a.translate(table2)
 print(a)
-
+print(a[::-1])
 
 
 
